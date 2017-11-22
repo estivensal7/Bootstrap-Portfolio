@@ -1,0 +1,76 @@
+
+
+.navbar-brand {
+	margin-left: 150px;
+	font-family: 'Georgia';
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.nav-link {
+	font-family: 'Georgia';
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.about {
+	margin-left: 500px;
+}
+
+.aboutme {
+	color: orange;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	content: '';
+	display: table;
+	clear: both;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 550px;
+	max-width: 650px;
+}
+
+img {
+	height: 150px;
+	width: 220px;
+	margin-left: 40px;
+}
+
+.aboutMeInfo {
+	margin-left: 0px;
+	font-family: 'Arial';
+}
+
+.card-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: orange;
+	font-family: 'Georgia';
+}
+
+.card {
+	background-color: #444;
+}
+
+.card ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.card li {
+	display: inline-block;
+}
+
+.card img {
+	width: 50px;
+	height: 50px;
+}
+
+.secondParagraph {
+	margin-left: 40px;
+}
