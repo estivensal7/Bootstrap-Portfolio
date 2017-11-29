@@ -2,10 +2,6 @@ body {
 	background: url(images/background2.png);
 }
 
-.bg-light {
-	background-color: #343a40;
-}
-
 .navbar-brand {
 	margin-left: 150px;
 	font-family: 'Georgia';
