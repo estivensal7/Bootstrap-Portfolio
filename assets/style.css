@@ -1,24 +1,34 @@
+nav {
+	background-color: #444;
+	filter:alpha(opacity=70%);
+	-moz-opacity:.70;
+	opacity:.70; 
+	font-family: 'Georgia';
+	color: orange;
+	width: 100%;
+}
+
+.firstname {
+	margin-left: 150px;	
+}
+
+.lastname {
+	margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+    color: orange;
+    font-size: 22px;
+}
+
+.about-link {
+	margin-left: 520px;
+}
+
 body {
 	background: url(images/background2.png);
 }
 
-.navbar-brand {
-	margin-left: 150px;
-	font-family: 'Georgia';
-	font-size: 40px;
-	text-decoration: underline;
-}
-
-.nav-link {
-	font-family: 'Georgia';
-	font-size: 22px;
-	font-weight: bold;
-}
-
-.about {
-	margin-left: 500px;
-	color: orange;
-}
 
 .aboutme {
 	color: orange;
@@ -90,10 +100,6 @@ img {
 	color: orange;
 	background-color: #444;
 	border-top: solid 10px orange;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: orange;
 }
 
 p {
